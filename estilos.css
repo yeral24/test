@@ -1,0 +1,94 @@
+body {
+    background-image: url("imagenes/fondo-mosaico.jpg");
+    width: 100%;
+    margin: 0px !important;
+
+}
+/*prueba de css
+.color-comun {
+    background-color: lavender;
+    height: 3em;
+    text-align: center;
+}
+
+.color-secundario {
+    background-color: burlywood;
+    width: 50%;
+    text-align: center;
+
+} */
+
+.cabecera {
+    background-color: #fb7878;
+    font-size:30px;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    font-family: Amaranth;
+}
+
+.botones {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 10%;
+}
+
+.botones>li>a {
+    text-decoration: none;
+    color: white;
+    margin-top: 5%;
+}
+
+.logo {
+    width: 150%;
+    margin-left: 20%;
+}
+
+.div-titulo-razas-populares {
+    margin-top: 8%;
+    text-align: center;
+    font-size: 150%;
+    margin-bottom: 20px;
+    font-family: Amaranth;
+    color: white;
+    width: 100%;
+}
+
+.titulo-letras {
+    background-color: #fb7878;
+    display: inline;
+    padding: 10px 20px 10px 20px;
+    border-radius: 30px;
+}
+
+#mascotas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.mascota-contenedor {
+    background-color: #fb7878;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    font-family: "Montserrat Medium";
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+    width: calc(33.33% - 20px);
+    box-sizing: border-box;
+    min-height: 170px;
+
+}
+
+.bordes-imagenes {
+    border-radius: 20px;
+    border: 5px solid white;
+}
+
+.contenido {
+    text-align: center;
+    gap: 8em;
+}
+
